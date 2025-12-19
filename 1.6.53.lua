@@ -5,14 +5,6 @@
     |__/|__/_/_//_/\_,_/\____/___/
     
     v1.6.53  |  2025-09-28  |  Roblox UI Library for scripts
-    
-    This script is NOT intended to be modified.
-    To view the source code, see the `src/` folder on the official GitHub repository.
-    
-    Author: Footagesus (Footages, .ftgs, oftgs)
-    Github: https://github.com/Footagesus/WindUI
-    Discord: https://discord.gg/ftgs-development-hub-1300692552005189632
-    License: MIT
 ]]
 
 
@@ -23,7 +15,7 @@ local f=game:GetService"TweenService"
 local g=game:GetService"LocalizationService"
 local h=game:GetService"HttpService"
 
-local i="https://raw.githubusercontent.com/Footagesus/Icons/main/Main-v2.lua"
+local i="https://github.com/amepae/lib/raw/main/icons/main.lua"
 
 local j=loadstring(
 game.HttpGetAsync and game:HttpGetAsync(i)
